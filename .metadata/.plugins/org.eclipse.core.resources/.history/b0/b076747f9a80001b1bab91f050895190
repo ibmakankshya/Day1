@@ -1,0 +1,11 @@
+
+public class School {
+	public static void main(String[] args) {
+		System.out.println("IBM");
+		Student student1 = new Student("Hiya");
+		//student1.setName("Hiya Bhatta");//avoid
+		//student1.name= "Hiya"; //avoid
+		System.out.println(student1.getName());
+	}
+
+}

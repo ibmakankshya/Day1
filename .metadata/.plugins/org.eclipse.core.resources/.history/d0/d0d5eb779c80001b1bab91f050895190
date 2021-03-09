@@ -1,0 +1,29 @@
+
+public class Student {
+	private String name;// Data Encapsulation
+	private byte age; //8bits=127max
+	Student(String name, byte age){
+	setName(name);
+	setAge(age); //custom constructor
+	}
+	public String getName() {
+		return name;
+	}
+	public int geAge() {
+		return age;
+	}
+
+
+	public void setName(String name) {
+		if (name== null || name.trim().equals(""))
+		{
+			throw new IllegalArgumentException("Name is mandatory");
+		}
+		this.name = name;
+	}
+	public void setAge(byte age) {
+		
+		this.age = age;
+	}
+}
+

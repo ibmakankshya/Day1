@@ -1,0 +1,17 @@
+
+public class School {
+	public static void main(String[] args) {
+		System.out.println("IBM");
+		Student student1 = new Student("Hiya",(byte) 23);
+		//student1.setName("Hiya Bhatta");//avoid
+		//student1.name= "Hiya"; //avoid
+		System.out.println(student1.getName());
+		System.out.println(student1.geAge());
+		student1.study();
+		Teacher teacher1 = new Teacher("Zabin", 3300,"English", (byte) 25 );
+		for(int i=0; i<10;i++) {
+			Teacher teacheri = new Teacher();
+		}
+	}
+
+}
