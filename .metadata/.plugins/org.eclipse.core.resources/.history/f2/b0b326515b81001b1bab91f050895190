@@ -8,6 +8,5 @@ public class Application {
 		//A b3 = new A(); 
 		System.out.println(b.age);
 		b.m1();
-		((B)b).m();//downcasting
 	}
 }
