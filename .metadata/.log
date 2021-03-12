@@ -120,3 +120,15 @@ Java Model Exception: Java Model Status [Account [in [Working copy] InnerClass.j
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-03-11 10:15:05.880
 !MESSAGE Account [in [Working copy] InnerClass.java [in Array [in src [in Day3]]]] does not exist
+
+!ENTRY org.eclipse.jdt.debug 2 0 2021-03-12 09:45:13.052
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2021-03-12 09:45:56.493
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2021-03-12 09:46:54.927
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2021-03-12 09:47:45.669
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
